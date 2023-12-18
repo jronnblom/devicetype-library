@@ -14,111 +14,111 @@ module-bays:
   - name: PWR2
     position: '2'
   - name: FAN1
-    position: '1'
+    position: '3'
   - name: FAN2
-    position: '2'
+    position: '4'
 interfaces:
-    - name: TenGigabitEthernet 0/0
+  - name: TenGigabitEthernet 0/0
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/1
+  - name: TenGigabitEthernet 0/1
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/2
+  - name: TenGigabitEthernet 0/2
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/3
+  - name: TenGigabitEthernet 0/3
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/4
+  - name: TenGigabitEthernet 0/4
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/5
+  - name: TenGigabitEthernet 0/5
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/6
+  - name: TenGigabitEthernet 0/6
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/7
+  - name: TenGigabitEthernet 0/7
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/8
+  - name: TenGigabitEthernet 0/8
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/9
+  - name: TenGigabitEthernet 0/9
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/10
+  - name: TenGigabitEthernet 0/10
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/11
+  - name: TenGigabitEthernet 0/11
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/12
+  - name: TenGigabitEthernet 0/12
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/13
+  - name: TenGigabitEthernet 0/13
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/14
+  - name: TenGigabitEthernet 0/14
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/15
+  - name: TenGigabitEthernet 0/15
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/16
+  - name: TenGigabitEthernet 0/16
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/17
+  - name: TenGigabitEthernet 0/17
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/18
+  - name: TenGigabitEthernet 0/18
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/19
+  - name: TenGigabitEthernet 0/19
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/20
+  - name: TenGigabitEthernet 0/20
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/21
+  - name: TenGigabitEthernet 0/21
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/22
+  - name: TenGigabitEthernet 0/22
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/23
+  - name: TenGigabitEthernet 0/23
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/24
+  - name: TenGigabitEthernet 0/24
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/25
+  - name: TenGigabitEthernet 0/25
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/26
+  - name: TenGigabitEthernet 0/26
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/27
+  - name: TenGigabitEthernet 0/27
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/28
+  - name: TenGigabitEthernet 0/28
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/29
+  - name: TenGigabitEthernet 0/29
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/30
+  - name: TenGigabitEthernet 0/30
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/31
+  - name: TenGigabitEthernet 0/31
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/32
+  - name: TenGigabitEthernet 0/32
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/33
+  - name: TenGigabitEthernet 0/33
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/34
+  - name: TenGigabitEthernet 0/34
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/35
+  - name: TenGigabitEthernet 0/35
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/36
+  - name: TenGigabitEthernet 0/36
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/37
+  - name: TenGigabitEthernet 0/37
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/38
+  - name: TenGigabitEthernet 0/38
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/39
+  - name: TenGigabitEthernet 0/39
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/40
+  - name: TenGigabitEthernet 0/40
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/41
+  - name: TenGigabitEthernet 0/41
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/42
+  - name: TenGigabitEthernet 0/42
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/43
+  - name: TenGigabitEthernet 0/43
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/44
+  - name: TenGigabitEthernet 0/44
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/45
+  - name: TenGigabitEthernet 0/45
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/46
+  - name: TenGigabitEthernet 0/46
     type: 10gbase-x-sfpp
-    - name: TenGigabitEthernet 0/47
+  - name: TenGigabitEthernet 0/47
     type: 10gbase-x-sfpp
-    - name: fortyGigE 0/48
+  - name: fortyGigE 0/48
     type: 40gbase-x-qsfpp
-    - name: fortyGigE 0/37
+  - name: fortyGigE 0/52
     type: 40gbase-x-qsfpp
-    - name: fortyGigE 0/37
+  - name: fortyGigE 0/56
     type: 40gbase-x-qsfpp
-    - name: fortyGigE 0/37
+  - name: fortyGigE 0/60
     type: 40gbase-x-qsfpp
