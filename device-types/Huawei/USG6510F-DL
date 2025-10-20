@@ -5,7 +5,7 @@ part_number: 02355FAF
 comments: https://support.huawei.com/enterprise/en/doc/EDOC1100208764/aeb49e05/usg6510f-dl
 u_height: 1
 is_full_depth: false
-airflow: right-to-left
+airflow: left-to-right
 weight: 2.34
 weight_unit: kg
 
@@ -19,7 +19,7 @@ power-ports:
     maximum_draw: 34  # W (max power consumption)
 
 interfaces:
-  # Service ports (electrical)
+  # 8x RJ45 GE
   - name: GE0/0/0
     type: 1000base-t
   - name: GE0/0/1
@@ -37,7 +37,7 @@ interfaces:
   - name: GE0/0/7
     type: 1000base-t
 
-  # Service ports (optical SFP)
+  # 4x SFP GE
   - name: GE0/0/8
     type: 1000base-x-sfp
   - name: GE0/0/9
@@ -47,29 +47,26 @@ interfaces:
   - name: GE0/0/11
     type: 1000base-x-sfp
 
-  # Out-of-band management (RJ45)
+  # OOB management
   - name: MEth0/0/0
     type: 1000base-t
     mgmt_only: true
 
-  # Cellular WAN (matches "interface Cellular0/0/0" in your config)
+  # Integrated LTE WAN (physical interface only; create subinterfaces per device)
   - name: Cellular0/0/0
-    type: cellular-4g
+    type: other
+    description: LTE/3G modem (create Cellular0/0/0:1 etc. as child interfaces on the device)
 
 module-bays:
   - name: LTE Modem
-    position: LTE
-    description: Optional 4G LTE modem for cellular backup
   - name: SIM Slot
-    position: SIM1
-    description: Nano SIM slot for LTE modem
 
 inventory-items:
   - name: LTE Modem Module
     manufacturer: Huawei
     part_id: LTE-MODULE
-    description: Integrated LTE modem supporting FDD-LTE/TDD-LTE/WCDMA networks
+    description: Integrated LTE modem (EC200A-EH bands)
   - name: SIM Card Slot
     manufacturer: Huawei
     part_id: SIM-SLOT
-    description: 1x Nano SIM slot for cellular connectivity
+    description: SIM holder for LTE modem
