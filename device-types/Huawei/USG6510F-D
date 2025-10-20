@@ -1,0 +1,48 @@
+manufacturer: Huawei
+model: USG6510F-D
+slug: huawei-usg6510f-d
+part_number: 02355EHU
+comments: https://support.huawei.com/enterprise/en/doc/EDOC1100208764/6a9e3f82/usg6510f-d
+u_height: 1
+is_full_depth: false
+airflow: passive
+weight: 1.55
+weight_unit: kg
+
+console-ports:
+  - name: CONSOLE
+    type: rj-45
+
+power-ports:
+  - name: AC Inlet
+    type: iec-60320-c14
+    maximum_draw: 23.7  # W (max power consumption) :contentReference[oaicite:2]{index=2}
+
+interfaces:
+  - name: GE0/0/0
+    type: 1000base-t
+  - name: GE0/0/1
+    type: 1000base-t
+  - name: GE0/0/2
+    type: 1000base-t
+  - name: GE0/0/3
+    type: 1000base-t
+  - name: GE0/0/4
+    type: 1000base-t
+  - name: GE0/0/5
+    type: 1000base-t
+  - name: GE0/0/6
+    type: 1000base-t
+  - name: GE0/0/7
+    type: 1000base-t
+  - name: GE0/0/8
+    type: 1000base-x-sfp
+  - name: GE0/0/9
+    type: 1000base-x-sfp
+  - name: GE0/0/10
+    type: 1000base-x-sfp
+  - name: GE0/0/11
+    type: 1000base-x-sfp
+  - name: MEth0/0/0
+    type: 1000base-t
+    mgmt_only: true
